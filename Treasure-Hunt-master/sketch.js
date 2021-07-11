@@ -16,7 +16,9 @@ function draw() {
   background(bg);
   clues();
   security.display();
-  
+  textSize(20);
+  fill("white");
+  text("Score:",+score, 450, 50);
   // Add code to display score in the middle of the screen
   // Add code to display the end screen
 
